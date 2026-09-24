@@ -1,0 +1,7 @@
+{
+  "name": "skynet-pipeline",
+  "private": true,
+  "type": "module",
+  "scripts": { "build": "tsc", "typecheck": "tsc --noEmit", "test": "tsc && node --test dist/transformer.test.js", "stats": "node dist/index.js stats" },
+  "devDependencies": { "@types/node": "^24.0.0", "typescript": "^5.9.0" }
+}

@@ -1,0 +1,14 @@
+// Corpus policy for the Skynet educational LLM pipeline.
+seed sources = [
+  "https://www.gutenberg.org/files/1342/1342-0.txt",
+  "https://www.gutenberg.org/files/11/11-0.txt",
+  "https://www.gutenberg.org/files/1661/1661-0.txt",
+  "https://www.gutenberg.org/files/84/84-0.txt",
+  "https://www.gutenberg.org/files/2701/2701-0.txt"
+];
+seed allowed_hosts = ["www.gutenberg.org"];
+seed max_depth = 2;
+seed max_pages = 100;
+seed delay_ms = 1000;
+
+// Replace the example values with sources you are licensed to collect.
